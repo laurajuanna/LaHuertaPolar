@@ -1,6 +1,6 @@
 from datetime import datetime
 import sqlite3
-base = sqlite3.connect('nuevabd.db')
+base = sqlite3.connect('base_de_datos.db')
 conn = base.cursor()
 
 conn.execute('''CREATE TABLE if not exists productos
